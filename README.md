@@ -18,8 +18,12 @@ I thought what if we reach into HomeBrew and ASDF which use flat directories on 
 check to see what exists, could we write a tool that we could call infront of our bash scripts like:
 
 `shoring --require foo --require "bar~>3.0" --require "woot>=4.1"`
+
 or maybe
+
 `echo {"require":["foo","bar~>3.0","woot>=4.1"]} | shoring`
+
+JSON can fit into an environment variable as well. `export SHORING_DEPS=...`
 
 and have that command return so fast, we didnt care if we called it on every single run.
 
