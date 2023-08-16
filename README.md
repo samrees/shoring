@@ -32,7 +32,7 @@ Sadly I'm a poor golang developer and got distracted but I wanted to commit this
 ```
 [shoring]> time ./shoring
 
-real	0m0.032s
-user	0m0.009s
-sys	    0m0.018s
+real    0m0.032s
+user    0m0.009s
+sys     0m0.018s
 ```
